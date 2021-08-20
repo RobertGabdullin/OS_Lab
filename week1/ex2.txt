@@ -1,0 +1,106 @@
+    1  whoami
+    2  hostname
+    3  man whoami
+    4  man man
+    5  ls
+    6  man ls
+    7  ls
+    8  ls /home
+    9  pwd
+   10  ls -l
+   11  date +"%y-%m-%d, %A"
+   12  ls -l /home
+   13  man grep
+   14  cat /etc/bash.bashrc 
+   15  cat /etc/bash.bashrc |less 
+   16  wc
+   17  ls -l
+   18  pwd
+   19  exit
+   20  echo $SHELL;
+   21  pwd
+   22  ls
+   23  cd ..
+   24  ls
+   25  cd acceptasis
+   26  cd
+   27  ls
+   28  cd /home
+   29  cd
+   30  cd /home/
+   31  cd
+   32  ls /a
+   33  ls -a
+   34  cd
+   35  cd ..
+   36  cd /acceptasis
+   37  cd acceptasis
+   38  say
+   39  exit
+   40  mkdir week1
+   41  ls
+   42  cd ..
+   43  ls
+   44  cd 
+   45  ls
+   46  man ls
+   47  man grep
+   48  cd /usr/bin
+   49  grep gcc 
+   50  man grep
+   51  grep gcc /usr/bin
+   52  grep -R gcc /usr/bin
+   53  exit
+   54  ls
+   55  cd week1
+   56  cd /usr/bin
+   57  grep gcc
+   58  cd usr/bin
+   59  cd /usr/bin
+   60  grep gcc /usr/bin
+   61  grep -R gcc /usr/bin
+   62  man grep
+   63  cd /usr/bin
+   64  grep -i gcc /usr/bin
+   65  grep -iR gcc /usr/bin
+   66  grep -RI gcc /usr/bin
+   67  cat ex1.txt
+   68  car > ex1.txt
+   69  cd 
+   70  cd week1
+   71  cat > ex1.txt
+   72  grep -d gcc /usr/bin
+   73  grep -d read gcc /usr/bin
+   74  grep -d skip gcc /usr/bin
+   75  ls /usr/bin
+   76  reset
+   77  grep -R gcc /usr/bin
+   78  grep -r gcc /usr/bin
+   79  cd
+   80  cd week1
+   81  ls
+   82  grep -r gcc /usr/bin > ex1.txt
+   83  nano ex1.txt
+   84  sort -r ex1.txt
+   85  nano ex1.txt
+   86  sort -ro ex1.txt
+   87  nano ex1.txt
+   88  sort ex1.txt > ex1.txt
+   89  nano ex1.txt
+   90  grep -r gcc /usr/bin > ex1.txt
+   91  sort -r ex1.txt > ex1.txt
+   92  nano ex1.txt
+   93  grep -r gcc /usr/bin > ex1.txt
+   94  sort -ro ex1.txt ex1.txt 
+   95  nano ex1.txt
+   96  which gcc
+   97  exit
+   98  cd /week1
+   99  cd week1
+  100  exit
+  101  cd week1
+  102  cat > ex2.txt
+  103  whoami
+  104  hostname
+  105  date
+  106  history >> ex2.txt
