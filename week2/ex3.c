@@ -2,13 +2,9 @@
 #include <string.h>
 #include <stdlib.h>
 
-int main(void) {
+int main(int argc, char **argv) {
 
-	int n;
-	char s[11];
-	fgets(s, 11, stdin);
-
-	n = atoi(s);
+	int n = atoi(argv[1]);
 
 	for (int i = 0; i < n; i++) {
 		for (int j = 0; j < n + i; j++)
