@@ -1,9 +1,14 @@
 #include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
 
 int main(void) {
-	
+
 	int n;
-	scanf_s("%d", &n);
+	char s[11];
+	fgets(s, 11, stdin);
+
+	n = atoi(s);
 
 	for (int i = 0; i < n; i++) {
 		for (int j = 0; j < n + i; j++)
@@ -11,5 +16,5 @@ int main(void) {
 			else printf(" ");
 		printf("\n");
 	}
-	
+
 }
