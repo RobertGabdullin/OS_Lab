@@ -1,10 +1,10 @@
 #!/bin/bash
 
-echo "0" >> test2.txt
-ln test2.txt test2.lock
+echo "0" >> ex2_2.txt
+ln ex2_2.txt ex2_2.lock
 while :
 do
-        var1=`tail -1 "./test2.lock"`
+        var1=`tail -1 "./ex2_2.lock"`
         LastNum=$((1+var1))
-        echo $LastNum >> test2.lock
+        echo $LastNum >> ex2_2.lock
 done
