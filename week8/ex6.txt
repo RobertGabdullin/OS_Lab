@@ -1,0 +1,1 @@
+Number of entries = Number of adresses / Number of bytes per page = 2^16 / (2^3 * 2^10) = 2^16 / 2^13 = 2^3 = 8

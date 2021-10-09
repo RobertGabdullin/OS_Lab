@@ -1,0 +1,3 @@
+The physical address is the actual address in RAM. A virtual address is a pair of numbers that correspond to a page
+number and an offset. The page number can be converted to a number of page frame using the MMU and page table.
+The page offset is equal to the offset in the page frame. 
