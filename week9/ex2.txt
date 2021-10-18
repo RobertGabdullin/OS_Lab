@@ -1,0 +1,5 @@
+To make this fraction as large as possible, we need to maximize the hit value. Note that if in the i-th iteration and in the i + 1-th iteration we add the same references, there will be exactly one hit. Finally, if we add n references, we have n - 1 matches and 1 miss (due to the first element).
+Example: 1 1 1 1 1 1 ... 1. Ratio = n - 1
+
+To make this fraction as small as possible, we need to maximize the miss value. Let k = number of frame pages. Note that if any existing segment with length = k contains exactly k unique numbers, then there are no hits at all.
+Example: 1 2 3 4 5 6 .. n - 1 n. Ratio = 0.
